@@ -68,7 +68,7 @@
         <div class="row gx-0">
           <div class="col-lg-3 bg-dark d-none d-lg-block">
             <a
-              href="index.html"
+              href="index.php"
               class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
             >
               <h1 class="m-0 text-primary">MOTECH</h1>
@@ -76,7 +76,7 @@
           </div>
           <div class="col-lg-9">
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
-              <a href="index.html" class="navbar-brand d-block d-lg-none">
+              <a href="index.php" class="navbar-brand d-block d-lg-none">
                 <h1 class="m-0 text-primary text-uppercase">MOTECH</h1>
               </a>
               <button
@@ -92,8 +92,8 @@
                 id="navbarCollapse"
               >
                 <div class="navbar-nav mr-auto py-0">
-                  <a href="index.html" class="nav-item nav-link active">Home</a>
-                  <a href="pages/about.html" class="nav-item nav-link">About</a>
+                  <a href="index.php" class="nav-item nav-link active">Home</a>
+                  <a href="pages/about.php" class="nav-item nav-link">About</a>
                   <div class="nav-item dropdown">
                     <a
                       href="#"
@@ -102,24 +102,24 @@
                       >Services</a
                     >
                     <div class="dropdown-menu rounded-0 m-0 bg-dark">
-                      <a href="pages/booking.html" class="dropdown-item text-white bg-dark"
+                      <a href="pages/service.php" class="dropdown-item text-white bg-dark"
                         >Graphic design</a
                       >
-                      <a href="pages/team.html" class="dropdown-item text-white bg-dark"
+                      <a href="pages/service.php" class="dropdown-item text-white bg-dark"
                         >Web development</a
                       >
-                      <a href="pages/testimonial.html" class="dropdown-item text-white bg-dark"
+                      <a href="pages/service.php" class="dropdown-item text-white bg-dark"
                         >Photography</a
                       >
-                        <a href="pages/testimonial.html" class="dropdown-item text-white bg-dark"
+                        <a href="pages/service.php" class="dropdown-item text-white bg-dark"
                         >Video production</a
                       >
-                        <a href="pages/testimonial.html" class="dropdown-item text-white bg-dark"
+                        <a href="pages/service.php" class="dropdown-item text-white bg-dark"
                         >IT Consultations</a
                       >
                     </div>
                   </div>
-                  <a href="pages/contact.html" class="nav-item nav-link"
+                  <a href="pages/contact.php" class="nav-item nav-link"
                     >Contact</a
                   >
                 </div>
@@ -238,51 +238,6 @@
         </div>
       </div>
       <!-- Carousel End -->
-
-      <!-- Booking Start -->
-      <!-- <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="bg-white shadow" style="padding: 35px;">
-                    <div class="row g-2">
-                        <div class="col-md-10">
-                            <div class="row g-2">
-                                <div class="col-md-3">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input"
-                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <select class="form-select">
-                                        <option selected>Adult</option>
-                                        <option value="1">Adult 1</option>
-                                        <option value="2">Adult 2</option>
-                                        <option value="3">Adult 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3">
-                                    <select class="form-select">
-                                        <option selected>Child</option>
-                                        <option value="1">Child 1</option>
-                                        <option value="2">Child 2</option>
-                                        <option value="3">Child 3</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <button class="btn btn-primary w-100">Submit</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-      <!-- Booking End -->
 
       <!-- About Start -->
       <div class="container-xxl py-5">
@@ -717,7 +672,7 @@
             </h1>
           </div>
           <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
               <div class="rounded shadow overflow-hidden">
                 <div class="position-relative">
                   <img class="img-fluid" src="assets/img/team-1.jpg" alt="" />
@@ -741,7 +696,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
               <div class="rounded shadow overflow-hidden">
                 <div class="position-relative">
                   <img class="img-fluid" src="assets/img/team-2.jpg" alt="" />
@@ -765,7 +720,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.5s">
               <div class="rounded shadow overflow-hidden">
                 <div class="position-relative">
                   <img class="img-fluid" src="assets/img/team-3.jpg" alt="" />
@@ -789,30 +744,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-              <div class="rounded shadow overflow-hidden">
-                <div class="position-relative">
-                  <img class="img-fluid" src="assets/img/team-4.jpg" alt="" />
-                  <div
-                    class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
-                  >
-                    <a class="btn btn-square btn-primary mx-1" href=""
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-square btn-primary mx-1" href=""
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-square btn-primary mx-1" href=""
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="text-center p-4 mt-3">
-                  <h5 class="fw-bold mb-0">Full Name</h5>
-                  <small>Designation</small>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -827,7 +759,7 @@
           <div class="row g-5">
             <div class="col-md-6 col-lg-4">
               <div class="rounded p-4">
-                <a href="index.html"
+                <a href="index.php"
                   ><h1 class="text-primary text-uppercase mb-3">MOTECH</h1></a
                 >
                 <p class="text-white mb-0">
@@ -876,11 +808,11 @@
                   >
                     Company
                   </h6>
-                  <a class="btn btn-link" href="">About Us</a>
-                  <a class="btn btn-link" href="">Contact Us</a>
+                  <a class="btn btn-link" href="pages/about.php">About Us</a>
+                  <a class="btn btn-link" href="pages/contact.php">Contact Us</a>
                   <a class="btn btn-link" href="">Privacy Policy</a>
                   <a class="btn btn-link" href="">Terms & Condition</a>
-                  <a class="btn btn-link" href="">Support</a>
+                  <a class="btn btn-link" href="pages/contact.php">Support</a>
                 </div>
                 <div class="col-md-6">
                   <h6
@@ -888,11 +820,11 @@
                   >
                     Services
                   </h6>
-                  <a class="btn btn-link" href="">Graphic Design/a>
-                  <a class="btn btn-link" href="">Web Development/a>
-                  <a class="btn btn-link" href="">Video production</a>
-                  <a class="btn btn-link" href="">Photography</a>
-                  <a class="btn btn-link" href="">IT Consultations</a>
+                  <a class="btn btn-link" href="pages/service.php">Graphic Design/a>
+                  <a class="btn btn-link" href="pages/service.php">Web Development/a>
+                  <a class="btn btn-link" href="pages/service.php">Video production</a>
+                  <a class="btn btn-link" href="pages/service.php">Photography</a>
+                  <a class="btn btn-link" href="pages/service.php">IT Consultations</a>
                 </div>
               </div>
             </div>
